@@ -1,0 +1,79 @@
+Assignment – 1
+1. Design a database schema to support the above mentioned features with MySQL and
+deploy it in AWS RDS
+Using the above mentioned database schema, design, develop and deploy RESTful API
+based microservices using AWS services like Lambda, S3 and any other required services to
+support the following functionalities:
+1. Users should be able to sign-up and sign-in into the system using third-party accounts
+like Google, Facebook etc.
+2. Users should also be able to sign-up and sign-in into the system using mobile number
+and OTP.
+Note:
+1. Document all REST API’s usage using Swagger and share the Swagger URL for all
+deployed API’s.
+2. Develop a test suite to automate testing of all REST API’s using any popular testing
+framework.
+3. Publish the complete codebase in a GitHub repository and share the URL.
+4. Share the AWS URL’s of all the deployed REST API’s to enable us to invoke and test
+them.
+Assignment – 2
+Using the above mentioned database schema, design, develop and deploy RESTful API
+based microservices using AWS services like Lambda, S3 and any other required services to
+support the following functionalities:
+1. Authenticated users should be able to upload audio and video files along with
+description of the content, keywords.
+2. Internally, the system should generate and associate details like user who uploaded
+the content, date and time of upload, date and time of modification, date and time of
+archival, number of views, number of likes etc.
+3. Authenticated users should be able to update the details associated with their content
+like description, keywords.
+4. Authenticated users should be able to hide and make visible their content to other
+users.
+5. Authenticated users should be able to archive their content.
+Note:
+
+ 
+
+1. Document all REST API’s usage using Swagger and share the Swagger URL for all
+deployed API’s.
+2. Develop a test suite to automate testing of all REST API’s using any popular testing
+framework.
+3. Publish the complete codebase in a GitHub repository and share the URL.
+4. Share the AWS URL’s of all the deployed REST API’s to enable us to invoke and test
+them.
+Assignment – 3
+Using the above mentioned database schema, design, develop and deploy RESTful API
+based microservices using AWS services like Lambda, S3 and any other required services to
+support the following functionalities:
+1. Both authenticated and unauthenticated users should be able to search, filter, retrieve
+and view content by using search phrases and any other details associated with the
+content like date of upload, username etc.
+2. Both authenticated and unauthenticated users should be able to search, filter, retrieve
+and view content by most number of views, most liked, recent uploads (by day, week,
+month, year, range of dates), old uploads (by day, week, month, range of dates)
+3. Admin users should be able to generate and retrieve statistics like number of
+registered users (total, by day, week, month, range of dates), signed-in users (total, by
+day, week, month, range of dates), number of content views (total, by day, week,
+month, range of dates), most popular content (total, by day, week, month, range of
+dates), least popular content (total, by day, week, month, range of dates)
+Note:
+1. Document all REST API’s usage using Swagger and share the Swagger URL for all
+deployed API’s.
+2. Develop a test suite to automate testing of all REST API’s using any popular testing
+framework.
+3. Publish the complete codebase in a GitHub repository and share the URL.
+4. Share the AWS URL’s of all the deployed REST API’s to enable us to invoke and test
+them.
+Assignment - 4
+Develop CI and CD tools to automate the deployment of the application into AWS
+environment whenever a new test, staging or production version of the application is built and
+committed into version control system.
+
+ 
+
+Note:
+1. Document the CI and CD tool usage.
+2. Develop a test suite to automate testing of CI and CD tools using any popular testing
+framework.
+3. Publish the complete CI and CD tool and test suite codebase in a GitHub repository
+and share the URL.
